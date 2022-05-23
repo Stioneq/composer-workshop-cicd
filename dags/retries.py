@@ -20,7 +20,7 @@ from airflow.operators.python import PythonOperator
 
 
 FAILURE_PROBABILITY = 0.5
-RETRIES = 1
+RETRIES = 5
 # Increase the number of retries to make the DAG finish successfully.
 # RETRIES = 3
 
